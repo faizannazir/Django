@@ -1,0 +1,75 @@
+body {
+  margin:0;
+  padding:0;
+  background-color: #e5eaf0;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  width: 150px;
+  border-radius: 50%;
+  border-color: cyan;
+  border-style: ridge;
+  stroke-width: 5px;
+  float: right;
+  margin-top: 6%;
+  margin-left: 10%;
+  margin-right: 5%;
+}
+header{
+background-color: #DFB887;
+height: 50px;
+width: 100%;
+opacity: .9;
+margin-bottom: 10px;
+}
+.fa-facebook {
+  text-align: center;
+  text-decoration: none;
+  border-radius: 11.5px;
+  background-color: #0909a0;
+  color: white;
+  width: 23px;
+  margin-top: .5%;
+  margin-right: 15%;
+  padding: 0.5%;
+  float:right;
+}
+button{
+  display: inline; 
+  width: 10%;
+  background-color: rgb(28, 28, 28);
+  color: rgb(74, 237, 255);
+  padding: 0.5%;
+  text-decoration: none;
+  float:left;
+}
+button + button{
+  margin-left: 5%;
+  margin-top: 0.5%;
+}
+button:nth-child(1){
+  margin-top: 0.5%;
+  margin-left: 0.5%;
+}
+button:hover, button:active{
+  background-color: red;
+  color: black;
+}
+
+
+p.about {
+  border: #44def8;
+  margin: 2%;
+  margin-right: 20%;
+  border-width: 5px;
+  padding: 50px;
+  border-style: ridge;
+  background: -webkit-gradient(linear, left top, right top, from(#20007e), to(#e61eb6));
+  background: linear-gradient(90deg, #20007e 0%, #e61eb6 100%);
+  font-weight: 12;
+  color: white;
+}
+
+/*# sourceMappingURL=index.css.map */
